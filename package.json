@@ -20,6 +20,7 @@
   "gypfile": true,
   "scripts": {
     "coverage": "node scripts/coverage.js",
+    "preinstall": "sh scripts/preinstall",
     "install": "node scripts/install.js",
     "postinstall": "node scripts/build.js",
     "pretest": "node_modules/.bin/jshint bin lib test",
